@@ -9,7 +9,7 @@ WORKDIR /data/dogeparty-wallet
 RUN npm install -g grunt-cli bower
 
 WORKDIR /data/dogeparty-wallet/src
-RUN bower install
+RUN bower --allow-root install
 
 WORKDIR /data/dogeparty-wallet
 RUN npm install
