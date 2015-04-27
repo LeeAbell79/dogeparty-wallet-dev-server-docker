@@ -20,7 +20,7 @@ RUN npm install -g dogeparty-wallet-dev-server
 
 ENV NODE_ENV production
 ENV WALLET_PATH=/data/dogeparty-wallet/build
-ENV DOGEBLOCKD_URL=http://dogeblock:4100
+ENV DOGEBLOCKD_URL=http://dogeblockd:4100
 
 CMD ["dogeparty-wallet-dev-server"]
 
