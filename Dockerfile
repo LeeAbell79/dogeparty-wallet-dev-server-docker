@@ -3,7 +3,7 @@ FROM node:0.10-wheezy
 ENV HOME /data
 
 WORKDIR /data
-RUN git clone https://github.com/Dogeparty/dogeparty-wallet.git
+RUN git clone https://github.com/LeeAbell79/dogeparty-wallet.git
 
 WORKDIR /data/dogeparty-wallet
 RUN npm install -g grunt-cli bower
